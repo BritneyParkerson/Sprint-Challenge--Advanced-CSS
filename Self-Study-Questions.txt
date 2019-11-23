@@ -1,0 +1,39 @@
+1) What is the difference between an adaptive website and a fully responsive website?
+	a) - Adaptive websites need to be able to adapt and load any and ALL possible layouts.
+    They take more time and resources to create them and, as a result, they tend to load 
+    more slowly than a responsive site does.
+    - Responsive layouts only need to be able to load the one layout that works across all 
+    types of platforms available. 
+
+2) Describe what it means to be mobile first vs desktop first.
+	a) - Mobile first means exactly what it sounds like it means, mobile comes first before any
+    other platforms. When working with mobile first, you focus on creating the website to adapt
+    to mobile devices, ie cellpones, before adding the code that adapts the site to bigger screens
+    such as desktops or television monitors.
+    - In the same sense, desktop first means the opposite, desktop site is created first and then
+    adapted to fit tablets and mobile devices.
+
+3) What does font-size: 62.5% in the html tag do for us when using rem units?
+	a) If the base font size is 16px, then 10px = 0.625rem or 62.5%. So the 62.5% would make the 
+    font size equivalent to 10px.
+    Rem units are relative to the root element. Not all browsers support rem units
+    so in most cases code would use the 62.5% to accomplish this font size.
+    In some cases, this solution is considered a sort of "golden rule", but many people advise 
+    against it because, even though the solution may be an easier way to work the code, it
+    winds up forcing the developer to rewrite all of the different font sizes within their site.
+    Others find it a way of better manipulating global sizes.
+    ( To avoid any chance of plagarism due to similar/paraphrased wording, this information came from 
+    src= https://www.sitepoint.com/understanding-and-using-rem-units-in-css/ , and article By Adrian Sandu)
+
+4) How would you describe preprocessing to someone new to CSS?
+	a) - Preprocessing gives new meaning to the phrase "less is more". It allows for you to be able to 
+    create the same amazing content without having to repeat your code multiple times just to make things
+    match. For example, if you want multiple pages and sections to have the same background color, you
+    can use a preprocessor to create varialbes for that particular color code. That way you don't have
+    to keep writing out or searching for the correct color codes.
+
+5) What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+	a) - So far my favorite concept or preprocessing is the different LESS files for keeping the code clean and
+    more neatly organized. I always found myself scrolling through CSS and accidentally editing the wrong class
+    sections and with the LESS files that doesn't happen as offten.
+    - What's giving me the most trouble is mixins and parametrics. Just learning what's what and how everything works.
