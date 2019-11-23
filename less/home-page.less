@@ -18,7 +18,7 @@ h1{
     p{
       @media @phone {
       width: 60%;
-      margin: auto 20%;
+      margin: 5% 20%;
     }
   }
 
@@ -31,7 +31,7 @@ h1{
       
       @media @phone {
         width: 60%;
-        margin: auto 20%;
+        margin: 5% 20%;
       }
 
     }
@@ -55,10 +55,11 @@ h1{
       height: 100%;
     }
     @media @phone {
-      flex-direction: column;
+      flex-direction: row;
       justify-content: center;
       align-items: center;
-      
+      width: 90%;
+      margin: auto 5%;
     }
   }
 
@@ -76,7 +77,7 @@ h1{
 
     @media @phone {
       width: 60%;
-      margin: auto 20%;
+      margin: 5% 20%;
     }
     
   }
@@ -131,7 +132,39 @@ h1{
     }
   }
 
+  .form{
+   font-size: 30px;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+
+   .button{
+    font-size: 20px;
+    background: @btn-bg-color;
+    padding: 20px;
+    border-radius: 15%;
+    color: white;
+    text-align: center;
+    border: 2px solid white;
+    width: 125px;
+    margin: 2% 40%;
+    font-weight: bold;
+
+    &:hover {
+        background-color: white;
+        color: @btn-bg-color;
+        border: 1px solid @btn-bg-color;
+        
+      }
+
+   }
+
+  }
+
+  }
   
 
-}
+
 // home
+

@@ -24,7 +24,7 @@
     <a href="Blog.html">Blog</a>
     <a href="Contact.html">Contact</a>
     <a href="SignIn.html">Sign In</a> 
-  </nav>
+    </nav>
 
   <div class="container home">
 
@@ -53,7 +53,8 @@
     
       <p>Which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it.</p>
     </section>
-    
+
+        
     <section class="walk">
       <div class="walk-text">
         <h3>Let's Go For A Walk</h3>
@@ -63,14 +64,55 @@
         <p>Suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.</p>
       
         <div class="btn">Sign Up </div>
+  
       </div>
-      
+
+            
       <div class="walk-img">
           <img src="img/space-walk.png" alt="Space walking astronaut">
       </div>
-
+  
     </section>
 
+    <section class="form">
+        <h2>Subscribe to SpaceWalk Magazine</h2>
+        <form action="action_page.php">
+                
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+             <br>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <br> 
+            <label for="email">Email</label>
+            <input type="email" placeholder="Email">
+            <br>
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+            <br>
+            <label for="Subscription">Subscription Plan</label>
+            <select id="plan" name="sub-plan">
+              <option value="USmonthly">Monthly - $4.99</option>
+              <option value="USannually">Monthly - $47.88</option>  
+              <option value="CAmonthly">Monthly - $6.64</option>
+              <option value="CAannually">Monthly - $63.69</option>                   
+            </select>
+            <br>
+            <label for="AnnualRenewal">Renewal Options</label>
+            <select id="Renew" name="renew-plan">
+              <option value="12Months-Cancel">End After 12 Months</option>
+              <option value="12Months-Auto">Auto Renew - 12 Months</option>
+              <option value="18Months-Cancel">Every 18 Months</option>                    
+            </select>
+            <br>
+            <div class="button">Subscribe</div>
+        
+          </form>
+      </section>
+   
     <footer>
       <p>Copyright SpaceWalkers 2018</p>
     </footer>
