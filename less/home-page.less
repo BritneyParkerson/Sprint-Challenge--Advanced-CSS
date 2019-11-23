@@ -2,14 +2,24 @@
 
 .home {
 
-  .intro {
+@media @phone {
+  body{
+     background: red;
+   }
+  }
+  }
 
+  
+  .intro {
+    
     h2 {
       padding: 15px;
     }
 
     p {
       padding:0 15px;
+      .bordered;
+      .border-radius(20%);
     }
   
   }
@@ -36,6 +46,8 @@
 
     p {
       margin-top: 13px;
+      .bordered;
+      .border-radius(15%);
     }
   }
 
@@ -55,9 +67,12 @@
 
       p {
         margin-bottom: 26px;
+        .bordered;
+        .border-radius(15%);
       }
 
       .btn {
+        
       }
     }
 
@@ -72,4 +87,5 @@
       }
     }
   }
+  
 }// home
