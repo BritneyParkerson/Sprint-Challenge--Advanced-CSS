@@ -181,12 +181,6 @@ p {
   width: 100%;
   margin: 0 auto;
 }
-h1 {
-  font-size: 50px;
-  text-align: center;
-  border: 3px dotted cadetblue;
-  padding: 7px;
-}
 .top-nav {
   display: flex;
   justify-content: center;
@@ -216,6 +210,12 @@ footer {
   justify-content: center;
   align-items: center;
 }
+h1 {
+  font-size: 50px;
+  text-align: center;
+  border: 3px dotted cadetblue;
+  padding: 7px;
+}
 .home .intro h2 {
   padding: 15px;
 }
@@ -234,6 +234,14 @@ footer {
   margin: 20px 2.5%;
   border-radius: 20px;
   height: 100%;
+}
+@media (min-width: 500px) {
+  .home .space-images {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: pink;
+  }
 }
 .home .visit-planets {
   padding: 15px;
